@@ -13,7 +13,8 @@ A three dimisional scatter plot shows how the different cryptocurrencies are clu
 ![PCA](3D_chart_PCA.png)
 
 Tradable Cryptos
-![Tradable_Crypto](tradable_crypto.png)
+
+![Tradable_Crypto](tradable_crypto.PNG)
 
 In order to demonstrate the relationship between total coin supply and total coins mined, a two dimensional graph is created.   
 
