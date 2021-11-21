@@ -6,9 +6,20 @@ The purpose of this project is to report a new cryptocurrency investment portfol
 
 Results: 
 
-Data preprossessing is performed to have cryptocurrencies that are actively trading, have a defined algorithm, and have a complete set of data. After the processing of the size of the dataset came to be a total of 533 different cryptocurrrencies. 
+Data preprossessing is performed to have cryptocurrencies that are actively trading, have a defined algorithm, and have a complete set of data. After the processing of the size of the dataset came to be a total of 532 different cryptocurrrencies. 
 
-A three dimisional scatter plot shows how the different cryptocurrencies are clustered together. Each point includes its name as well as the algorithm used to create the currency.
+The analysis is proformed using TSNE dimensionality reduction preserving 90% of the variance explained by the data as well as with a 3 PCA   components. 
+
+Using TSNE and K-Means clustering, It can be determined that the crypto dataset has no clear clusters to differentiate. The data majorly is a big blob of many clusters. 
+
+![elbow_tsne](elbow_curve_tsne.png)
+
+![TSNE](reduced_dimension_tsne.png)
+
+
+PCA = 3: 
+
+Usign PCA = 3, A three dimisional scatter plot shows how the different cryptocurrencies are clustered together. Each point includes its name as well as the algorithm used to create the currency.
 
 ![PCA](3D_chart_PCA.png)
 
