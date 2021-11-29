@@ -1,10 +1,10 @@
 # Unsupervised_learning
 
-Overview
+## Overview
 
 The purpose of this project is to report a new cryptocurrency investment portfolio for an investment bank. The report includes cryptocurrencies that are on the trading market and if they can be grouped to create a classification system. In order to complete this project, an unsupervised machine learning functions are used on the data provided by CryptoCompare.
 
-Results: 
+## Results: 
 
 Data preprossessing is performed to have cryptocurrencies that are actively trading, have a defined algorithm, and have a complete set of data. After the processing of the size of the dataset came to be a total of 532 different cryptocurrrencies. 
 
@@ -32,7 +32,7 @@ In order to demonstrate the relationship between total coin supply and total coi
 ![Crypto_mined_supply](Crypto_mined_supply.png)
 
 
-Summary:
+## Summary:
 
 While looking at the three dimisional graph, one can see that there are five different clusters. Two groups are clumped very closely together with most currencies falling into one of these two groups. One group has a few different currencies that are farther away from the others and then there are other groups that only have few currencies. This shows that there are lot of currencies that perform similarly while there are a few that are outliers. These outliers could be over performers or under performers, a further analysis is needed. 
 
